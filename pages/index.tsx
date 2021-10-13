@@ -14,11 +14,7 @@ function Home({ menu }: HomeProps): JSX.Element {
             <Button appearance='ghost' arrow='down'>Читать отзывы</Button>
             <Ptag size='s'>Параграф текста</Ptag>
             <Ptag>Параграф</Ptag>
-            <ul>
-                {
-                    menu.map(m => (<li key={m._id.secondCategory}>{m._id.secondCategory}</li>))
-                }
-            </ul>
+
         </>
     );
 }

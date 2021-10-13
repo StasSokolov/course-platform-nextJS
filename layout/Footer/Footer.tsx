@@ -2,7 +2,7 @@ import {FooterProps} from "./Footer.props";
 import styles from './Footer.module.css';
 import cn from "classnames";
 import {Ptag} from "../../components";
-import {format} from 'date-fns'
+import {format} from 'date-fns';
 
 export const Footer = ({className, ...props}: FooterProps): JSX.Element => {
     return (
