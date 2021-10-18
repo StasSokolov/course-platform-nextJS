@@ -18,6 +18,10 @@ a {
     box-sizing: border-box;
 }
 
+input {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
 :root {
     --black: #3B434E;
     --grey-light: #EBEBEB;

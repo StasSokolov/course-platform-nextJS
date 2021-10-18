@@ -1,0 +1,28 @@
+.sortIcon {
+    display: none;
+}
+
+.active {
+    font-weight: bold;
+
+    color: var(--primary);
+}
+
+.active .sortIcon {
+    display: block;
+
+    margin-right: 8px;
+}
+
+.sort {
+    display: flex;
+}
+
+.sort span {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    margin: 0 20px;
+}

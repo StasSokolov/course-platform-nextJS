@@ -1,4 +1,4 @@
-import {Button, Htag, Ptag, Rating, Tag} from "../components";
+import {Button, Htag, Input, Ptag, Textarea} from "../components";
 import {withLayout} from "../layout/Layout";
 import {GetStaticProps} from "next";
 import axios from "axios";
@@ -14,7 +14,8 @@ function Home({ menu }: HomeProps): JSX.Element {
             <Button appearance='ghost' arrow='down'>Читать отзывы</Button>
             <Ptag size='s'>Параграф текста</Ptag>
             <Ptag>Параграф</Ptag>
-
+            <Input placeholder='Тест'/>
+            <Textarea placeholder='Тест'/>
         </>
     );
 }
